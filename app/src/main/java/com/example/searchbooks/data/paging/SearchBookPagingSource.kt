@@ -6,7 +6,7 @@ import com.example.searchbooks.common.Constants.ITEM_PER_PAGE
 import com.example.searchbooks.common.Constants.PREV_NEXT_ITEM_PAGE
 import com.example.searchbooks.data.mapper.Mapper.toSearchBookItem
 import com.example.searchbooks.data.remote.api.SearchBookApi
-import com.example.searchbooks.domain.model.remote.SearchBookRemoteItem
+import com.example.searchbooks.domain.model.remote.model.SearchBookRemoteItem
 import javax.inject.Inject
 
 class SearchBookPagingSource @Inject constructor(

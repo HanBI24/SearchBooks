@@ -2,8 +2,8 @@ package com.example.searchbooks.data.mapper
 
 import com.example.searchbooks.data.local.entity.SearchBookEntity
 import com.example.searchbooks.data.remote.dto.Item
-import com.example.searchbooks.domain.model.local.SearchBookLocal
-import com.example.searchbooks.domain.model.remote.SearchBookRemoteItem
+import com.example.searchbooks.domain.model.local.repository.model.SearchBookLocal
+import com.example.searchbooks.domain.model.remote.model.SearchBookRemoteItem
 
 object Mapper {
     fun Item.toSearchBookItem(): SearchBookRemoteItem {
