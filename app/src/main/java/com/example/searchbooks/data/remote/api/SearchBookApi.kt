@@ -1,5 +1,6 @@
 package com.example.searchbooks.data.remote.api
 
+import com.example.searchbooks.data.remote.dto.SearchBookDto
 import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
