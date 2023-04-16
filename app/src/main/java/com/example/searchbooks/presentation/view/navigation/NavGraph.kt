@@ -9,6 +9,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navArgument
 import coil.annotation.ExperimentalCoilApi
+import com.example.searchbooks.presentation.view.search_recent_screen.view.SearchRecentWordScreen
+import com.example.searchbooks.presentation.view.search_screen.view.MainScreen
 
 @ExperimentalCoilApi
 @Composable
@@ -38,7 +40,7 @@ fun SetupNavGraph(
         composable(
             route = NavigationScreen.RecentSearchWord.route,
         ) {
-            RecentSearchWordScreen(
+            SearchRecentWordScreen(
                 modifier = Modifier
                     .fillMaxSize(),
                 navController = navController
