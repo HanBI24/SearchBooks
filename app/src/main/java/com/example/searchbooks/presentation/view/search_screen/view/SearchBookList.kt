@@ -29,7 +29,7 @@ import androidx.paging.compose.items
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.ImagePainter
 import coil.compose.rememberImagePainter
-import com.example.searchbooks.domain.model.remote.model.SearchBookRemoteItem
+import com.example.searchbooks.domain.repository.remote.model.SearchBookRemoteItem
 import com.example.searchbooks.presentation.view.search_screen.viewmodel.SearchBookViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

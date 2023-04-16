@@ -1,4 +1,4 @@
-package com.example.searchbooks.domain.model.remote.model
+package com.example.searchbooks.domain.repository.remote.model
 
 data class SearchBookRemoteItem(
     val author: String,

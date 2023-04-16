@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import com.example.searchbooks.domain.model.local.model.SearchBookLocal
+import com.example.searchbooks.domain.repository.local.model.SearchBookLocal
 import com.example.searchbooks.presentation.view.navigation.NavigationScreen
 import com.example.searchbooks.presentation.view.search_recent_screen.viewmodel.SearchRecentWordViewModel
 

@@ -6,8 +6,8 @@ import com.example.searchbooks.common.Constants.BASE_URL
 import com.example.searchbooks.data.local.SearchBookDao
 import com.example.searchbooks.data.local.SearchBookDatabase
 import com.example.searchbooks.data.remote.api.SearchBookApi
-import com.example.searchbooks.domain.model.local.SearchBookLocalRepositoryImpl
-import com.example.searchbooks.domain.model.local.repository.SearchBookLocalRepository
+import com.example.searchbooks.data.repository.local.SearchBookLocalRepositoryImpl
+import com.example.searchbooks.domain.repository.local.SearchBookLocalRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

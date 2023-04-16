@@ -1,10 +1,10 @@
-package com.example.searchbooks.domain.model.local
+package com.example.searchbooks.data.repository.local
 
 import com.example.searchbooks.data.local.SearchBookDao
 import com.example.searchbooks.data.mapper.Mapper.toSearchBookEntity
 import com.example.searchbooks.data.mapper.Mapper.toSearchBookLocal
-import com.example.searchbooks.domain.model.local.model.SearchBookLocal
-import com.example.searchbooks.domain.model.local.repository.SearchBookLocalRepository
+import com.example.searchbooks.domain.repository.local.model.SearchBookLocal
+import com.example.searchbooks.domain.repository.local.SearchBookLocalRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

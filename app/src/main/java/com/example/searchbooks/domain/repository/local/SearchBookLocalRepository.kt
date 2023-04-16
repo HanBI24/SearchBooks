@@ -1,6 +1,6 @@
-package com.example.searchbooks.domain.model.local.repository
+package com.example.searchbooks.domain.repository.local
 
-import com.example.searchbooks.domain.model.local.model.SearchBookLocal
+import com.example.searchbooks.domain.repository.local.model.SearchBookLocal
 import kotlinx.coroutines.flow.Flow
 
 interface SearchBookLocalRepository {

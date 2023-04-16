@@ -8,8 +8,8 @@ import androidx.paging.cachedIn
 import com.example.searchbooks.common.Constants.ITEM_PER_PAGE
 import com.example.searchbooks.data.paging.SearchBookPagingSource
 import com.example.searchbooks.data.remote.api.SearchBookApi
-import com.example.searchbooks.domain.model.local.model.SearchBookLocal
-import com.example.searchbooks.domain.model.local.repository.SearchBookLocalRepository
+import com.example.searchbooks.domain.repository.local.model.SearchBookLocal
+import com.example.searchbooks.domain.repository.local.SearchBookLocalRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
