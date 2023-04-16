@@ -1,9 +1,10 @@
-package com.example.searchbooks.data.local.entity
+package com.example.searchbooks.data.local
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import com.example.searchbooks.data.local.entity.SearchBookEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
