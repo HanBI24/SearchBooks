@@ -80,9 +80,10 @@
 * Coroutine
 * Flow
 * Hilt
+* Paging
 * Gson
 * Retrofit
 * Room  
 * Coil  
-* Naver Book Search API  
+* Naver Search Book API  
 * Duru API  
