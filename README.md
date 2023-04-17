@@ -35,7 +35,7 @@
        │    │    ├─ view 
        │    │    └─ viewmodel 
        │    └─ search_screen
-       │         ├─ model 
+       │         ├─ view
        │         └─ viewmodel 
        ├─ ui
        ├─ MainActivity.kt
