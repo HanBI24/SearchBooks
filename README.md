@@ -74,6 +74,7 @@
 
 
 ## Use Skills
+* Jetpack Compose
 * MVVM Pattern
 * Clean Architecture
 * Coroutine
