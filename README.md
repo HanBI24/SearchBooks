@@ -78,7 +78,7 @@
 * MVVM Pattern
 * Clean Architecture
 * Coroutine
-* Flow, StateFlow, SharedFlow
+* Flow
 * Hilt
 * Gson
 * Retrofit
